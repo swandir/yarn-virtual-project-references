@@ -1,0 +1,12 @@
+{
+  "include": ["index.ts"],
+  "references": [{ "path": "../c" }],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "module": "esnext"
+  }
+}

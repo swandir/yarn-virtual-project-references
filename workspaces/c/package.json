@@ -1,0 +1,5 @@
+{
+  "name": "c",
+  "exports": "./index.ts",
+  "types": "index.ts"
+}

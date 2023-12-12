@@ -1,0 +1,20 @@
+{
+  "include": ["index.ts"],
+  "references": [
+    {
+      "path": "../b"
+    },
+    {
+      "path": "../c"
+    }
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "strict": true
+  }
+}
